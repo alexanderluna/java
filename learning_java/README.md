@@ -8,7 +8,7 @@ All java programs start with a main function which gets called immediatly.
 public static void main(String args[])
 ```
 
-[Code Examples](/001_system_out)
+[Code Examples](/learning_java/001_system_out)
 
 ## Variables
 
@@ -24,8 +24,8 @@ variable. The following 8 primitive data types exist.
 - boolean ()
 - char (16 bits unsigned int unicode)
 
-[Code Examples 1](/002_declare_variables)
-[Code Examples 2](/003_excersise_with_double)
+[Code Examples 1](/learning_java/002_declare_variables)
+[Code Examples 2](/learning_java/003_excersise_with_double)
 
 ## Control Statements
 
@@ -52,11 +52,11 @@ for(count = 0; count < 5; count = count + 1) {
 }
 ```
 
-[Code Examples 1](/004_control_statements)
-[Code Examples 2](/005_exercise_with_control)
-[Code Examples 3](/006_challenge_conversion)
-[Code Examples 4](/007_data_types)
-[Code Examples 5](/008_exercise_data_types)
+[Code Examples 1](/learning_java/004_control_statements)
+[Code Examples 2](/learning_java/005_exercise_with_control)
+[Code Examples 3](/learning_java/006_challenge_conversion)
+[Code Examples 4](/learning_java/007_data_types)
+[Code Examples 5](/learning_java/008_exercise_data_types)
 
 ## Style Guide
 
@@ -122,7 +122,7 @@ public static void main(String args[]) {
 }
 ```
 
-[Code Examples](/009_working_with_scope)
+[Code Examples](/learning_java/009_working_with_scope)
 
 ## Operators
 
@@ -170,7 +170,7 @@ int a = 10;
 int b = ++a; // b = 11
 ```
 
-[Code Examples](/010_short_circuit)
+[Code Examples](/learning_java/010_short_circuit)
 
 ## Type Conversion
 
