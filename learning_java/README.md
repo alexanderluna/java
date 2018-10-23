@@ -1,5 +1,26 @@
 # Learning Java
 
+- [Learning Java](#learning-java)
+  - [The Main function](#the-main-function)
+  - [Variables](#variables)
+  - [Control Statements](#control-statements)
+  - [Style Guide](#style-guide)
+  - [Keywords](#keywords)
+  - [Identifiers](#identifiers)
+  - [Literals](#literals)
+  - [Variable Scope](#variable-scope)
+  - [Operators](#operators)
+  - [Type Conversion](#type-conversion)
+  - [Working with Input](#working-with-input)
+  - [Control Statements Part 2](#control-statements-part-2)
+    - [if/else statement](#ifelse-statement)
+    - [switch statement](#switch-statement)
+    - [for loop](#for-loop)
+    - [while loop](#while-loop)
+    - [do/while loop](#dowhile-loop)
+    - [Break](#break)
+    - [Continue](#continue)
+
 ## The Main function
 
 All java programs start with a main function which gets called immediatly.
@@ -191,4 +212,136 @@ information if the conversion is narrowing:
 ```java
 double a, b;
 (int) (a/b); // precision is lost
+```
+
+## Working with Input
+
+Input like output requires the System library:
+
+```java
+System.in.read();
+```
+
+## Control Statements Part 2
+
+We learned about **if/for loop** control statements before now we will look at
+the rest of the control statements:
+
+### if/else statement
+
+```java
+if (condition) {
+  // do something
+} else if (condition2) {
+  // do something else
+} else {
+  // default 
+}
+```
+
+### switch statement
+
+```java
+switch(expression) {
+  case match1:
+    // do something
+    break;
+  case match2:
+    // do something else
+    break;
+  default:
+    // if nothing matches
+}
+```
+
+### for loop
+
+```java
+for(initialization; condition; iteration) {
+  // statement
+}
+
+for(;;) {
+  // infinite loop
+}
+
+int j = 0;
+for(int i = 0; i < 5; j += i++); // empty loop
+```
+
+### while loop
+
+```java
+char i = 'a';
+
+while(i <= 'z') {
+  System.out.println(i);
+  i++;
+}
+```
+
+### do/while loop
+
+> This loop will execute at least once
+
+```java
+do {
+  // something
+} while (condition)
+```
+
+### Break
+
+> Loops will execute until their exit condition is met. But we can stop
+> a loop with the *break* keyword.
+
+The break keyword can also be used as a form of goto by labeling blocks.
+**GOTO** allows us to break out of inner blocks up to a different blocks. For
+this to work, the loop have to be part of a loop or a switch.
+
+```java
+for (int i = 1; i < 4; i++) {
+  one: {
+    two: {
+      three: {
+        System.out.println("\ni is -> " + i);
+        if (i == 1) break one;
+        if (i == 2) break two;
+        if (i == 3) break three;
+        System.out.println("won't print");
+      }
+      System.out.println("After block three");
+    }
+    System.out.println("After block two");
+  }
+  System.out.println("After block one")
+}
+System.out.println("After for loop");
+```
+
+### Continue
+
+It is possible to skip an interation entire using the continue keyword:
+
+```java
+// count 0 to 4 and skip 2;
+for(int i = 0; i < 5; i++) {
+  if (i == 2) {
+    continue;
+  }
+  System.out.print("i is " + i);
+}
+```
+
+And just as with **break** we can use **continue** as a form of **GOTO**:
+
+```java
+continueHere: for(int i = 0; i < 5; i++) {
+  for (int y = 0; y < 5; y++)
+    if (i == 2) {
+      continue continueHere;
+    }
+  }
+  System.out.print("i is " + i);
+}
 ```
