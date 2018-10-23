@@ -2,6 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LogicalOpTable",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "LogicalOpTable",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Example",
             "request": "launch",
             "cwd": "${workspaceFolder}",
