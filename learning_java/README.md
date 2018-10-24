@@ -214,6 +214,8 @@ double a, b;
 (int) (a/b); // precision is lost
 ```
 
+[Code Examples](/learning_java/011_type_conversion)
+
 ## Working with Input
 
 Input like output requires the System library:
@@ -221,6 +223,8 @@ Input like output requires the System library:
 ```java
 System.in.read();
 ```
+
+[Code Examples](/learning_java/013_input)
 
 ## Control Statements Part 2
 
@@ -345,3 +349,7 @@ continueHere: for(int i = 0; i < 5; i++) {
   System.out.print("i is " + i);
 }
 ```
+
+[Code Examples](/learning_java/014_exercise_switch)
+[Code Examples](/learning_java/015_break_out)
+[Code Examples](/learning_java/016_nested_loops)
