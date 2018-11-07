@@ -20,6 +20,9 @@
     - [do/while loop](#dowhile-loop)
     - [Break](#break)
     - [Continue](#continue)
+  - [Classes](#classes)
+    - [finalize()](#finalize)
+  - [Methods](#methods)
 
 ## The Main function
 
@@ -239,7 +242,7 @@ if (condition) {
 } else if (condition2) {
   // do something else
 } else {
-  // default 
+  // default
 }
 ```
 
@@ -353,3 +356,70 @@ continueHere: for(int i = 0; i < 5; i++) {
 [Code Examples](/learning_java/014_exercise_switch)
 [Code Examples](/learning_java/015_break_out)
 [Code Examples](/learning_java/016_nested_loops)
+
+## Classes
+
+The general form of a class
+
+```java
+class ClassName {
+
+ type var_name;
+
+ ClassName(String initial_value) {
+   var_name = initial_value;
+ }
+ return_type method_name(type paramaters) {
+   // body
+ }
+}
+```
+
+The ClassName inside the ClassName class is a constructor which takes any
+arguments to initialize its values such as name in this case. In order to create
+an instance of the vehicle Class we create a new object:
+
+```java
+Vehicle my_car = new Vehicle();
+Person me = new Person("Alexander");
+```
+
+> Java's Garbage Collection system reclaims objects automatically. It does this
+> by freeing that have no current reference. Generally the Garbage Collector
+> will run if there are object to reclaim or if there is a lack of space.
+
+Finally all classes get an implicit first argument called **this** which holds
+a reference to the current objects. This becomes useful when you want the name
+of a parameter to be the same as the instance variable:
+
+```java
+class Person {
+  String name;
+  Person(String name) {
+    this.name = name;
+  }
+}
+```
+
+### finalize()
+
+Given that objects can be garbage collected at any point in time, we can do some
+cleanup before they are removed by using the **finalize()** method.
+
+[Code Examples](/learning_java/017_classes)
+[Code Examples](/learning_java/018_garbage_collector)
+
+## Methods
+
+A methods and functionality to a class and follows this structure:
+
+```java
+return_type method_name(type paramaters) {
+ // body
+}
+```
+
+> If the your method doesn't return anything you have to specify so by using
+> void.
+
+[Code Examples](/learning_java/017_classes)
