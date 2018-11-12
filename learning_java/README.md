@@ -23,6 +23,10 @@
   - [Classes](#classes)
     - [finalize()](#finalize)
   - [Methods](#methods)
+  - [Arrays](#arrays)
+    - [One Dimentional Array](#one-dimentional-array)
+    - [Multidimentional Array](#multidimentional-array)
+    - [Irregular Arrays](#irregular-arrays)
 
 ## The Main function
 
@@ -423,3 +427,38 @@ return_type method_name(type paramaters) {
 > void.
 
 [Code Examples](/learning_java/017_classes)
+
+## Arrays
+
+In java an array is a collection of variables of the same type and are zero
+index. Arrays are implemented as objects:
+
+### One Dimentional Array
+
+```java
+type array_name = new type[size];
+type array_name[] = { val1, val2, val3 };
+type[] array_name = new type[size];
+type array_name[] = new type[size];
+int person_ages = new int[8];
+```
+
+> Arrays are zero indexed.
+
+### Multidimentional Array
+
+```java
+int array_name[][] = new int[8][4];
+int array_name[][][] = new int[8][4][5];
+
+int ages[][] = {
+  {1,2,3},
+  {4,5,6}
+}
+```
+
+### Irregular Arrays
+
+```java
+int array_name[][] = new int[8][];
+```
