@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Bubble",
+            "request": "launch",
+            "mainClass": "Bubble",
+            "projectName": "java_20dd1614"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LogicalOpTable",
             "request": "launch",
             "cwd": "${workspaceFolder}",
