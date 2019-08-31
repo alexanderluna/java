@@ -22,6 +22,9 @@ class VehicleDemo {
         range1 = car.range();
         range2 = minivan.range();
 
+        System.out.println("Car range: " + range1);
+        System.out.println("Minivan range: " + range2);
+
         System.out.println(car.information("Car"));
         System.out.println(minivan.information("Minivan"));
     }
