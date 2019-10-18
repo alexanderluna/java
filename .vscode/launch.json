@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - QueueDemo",
+            "request": "launch",
+            "mainClass": "QueueDemo",
+            "projectName": "java_20dd1614"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Bubble",
             "request": "launch",
             "mainClass": "Bubble",

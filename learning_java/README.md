@@ -27,6 +27,7 @@
     - [One Dimentional Array](#one-dimentional-array)
     - [Multidimentional Array](#multidimentional-array)
     - [Irregular Arrays](#irregular-arrays)
+    - [for-each loop (aka. enhanced for loop)](#for-each-loop-aka-enhanced-for-loop)
 
 ## The Main function
 
@@ -461,4 +462,12 @@ int ages[][] = {
 
 ```java
 int array_name[][] = new int[8][];
+```
+
+### for-each loop (aka. enhanced for loop)
+
+```java
+for (type value: collection) {
+  statement-block;
+}
 ```
