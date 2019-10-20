@@ -28,6 +28,7 @@
     - [Multidimentional Array](#multidimentional-array)
     - [Irregular Arrays](#irregular-arrays)
     - [for-each loop (aka. enhanced for loop)](#for-each-loop-aka-enhanced-for-loop)
+  - [String](#string)
 
 ## The Main function
 
@@ -471,3 +472,14 @@ for (type value: collection) {
   statement-block;
 }
 ```
+
+## String
+
+Strings are objects in java and declared as followed:
+
+```java
+String name = new String("Alexander");
+String lastName = "Luna";
+```
+
+
