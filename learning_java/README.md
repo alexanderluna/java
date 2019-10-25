@@ -29,6 +29,7 @@
     - [Irregular Arrays](#irregular-arrays)
     - [for-each loop (aka. enhanced for loop)](#for-each-loop-aka-enhanced-for-loop)
   - [String](#string)
+  - [Switch Statement](#switch-statement-1)
 
 ## The Main function
 
@@ -482,4 +483,22 @@ String name = new String("Alexander");
 String lastName = "Luna";
 ```
 
+## Switch Statement
 
+A switch statement can be used to avoid chaining together if else if statements.
+
+```java
+String command = "close";
+
+switch(command) {
+  case "open":
+    System.out.print("Opening connection");
+    break;
+  case "close":
+    System.out.print("Closing connection");
+    break;
+  case "kill":
+    System.out.print("Killing unresponsive connection");
+    break;
+}
+```
