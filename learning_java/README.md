@@ -430,6 +430,7 @@ return_type method_name(type paramaters) {
 > void.
 
 [Code Examples](/learning_java/017_classes)
+[Code Examples](/learning_java/018_garbage_collector)
 
 ## Arrays
 
@@ -474,6 +475,8 @@ for (type value: collection) {
 }
 ```
 
+[Code Examples](/learning_java/021_queue)
+
 ## String
 
 Strings are objects in java and declared as followed:
@@ -482,6 +485,8 @@ Strings are objects in java and declared as followed:
 String name = new String("Alexander");
 String lastName = "Luna";
 ```
+
+[Code Examples](/learning_java/020_strings)
 
 ## Switch Statement
 
