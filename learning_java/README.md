@@ -30,6 +30,7 @@
     - [for-each loop (aka. enhanced for loop)](#for-each-loop-aka-enhanced-for-loop)
   - [String](#string)
   - [Switch Statement](#switch-statement-1)
+  - [Access Modifiers](#access-modifiers)
 
 ## The Main function
 
@@ -507,3 +508,11 @@ switch(command) {
     break;
 }
 ```
+
+## Access Modifiers
+
+Java offers us a way of controlling member access through the following access
+modifiers: public, private, protected. The public access modifier allows any
+code in our program to access it (same & other classes). The private access
+modifier on the hand, allows only the class it belongst to, to access it.
+**public is the default access modifier if none is specified**
