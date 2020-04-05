@@ -154,6 +154,6 @@ continueHere: for(int i = 0; i < 5; i++) {
 }
 ```
 
-[Exercise: Switch](/learning_java/_code_examples/014_exercise_switch/)
-[Exercise: Break](/learning_java/_code_examples/015_break_out)
-[Exercise: Nested Loops](/learning_java/_code_examples/016_nested_loops)
+- [Exercise: Switch](/learning_java/_code_examples/014_exercise_switch/)
+- [Exercise: Break](/learning_java/_code_examples/015_break_out)
+- [Exercise: Nested Loops](/learning_java/_code_examples/016_nested_loops)
