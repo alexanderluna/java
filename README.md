@@ -8,11 +8,12 @@
 
 ## Index
 
-- [Why Java ?](#why-java-)
-- [My Goals with Java](#my-goals-with-java)
-- [Learning Java](/learning_java/README.md)
+- [Java](#java)
+  - [Index](#index)
+  - [Why Java](#why-java)
+  - [My Goals with Java](#my-goals-with-java)
 
-## Why Java ?
+## Why Java
 
 Over the past couple years I have worked mainly with Ruby, Python, Javascript
 and Swift. One of the major drawbacks for me wasn't the fact that they are

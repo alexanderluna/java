@@ -15,6 +15,8 @@ to learn and keep learning java.
 7. [Arrays](007_Arrays.md)
 8. [Strings](008_Strings.md)
 9. [Recursion](009_Recursion.md)
+10. [Inheritance](010_Inheritance.md)
+11. [Packages](011_Packages.md)
 
 ## Resources
 

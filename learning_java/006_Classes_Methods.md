@@ -152,4 +152,3 @@ void randomNumbers(int first, int ... numbers)
 ```
 
 > Keep in mind that overloading varargs methods can result in ambigous errors.
-
