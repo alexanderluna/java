@@ -17,6 +17,7 @@ to learn and keep learning java.
 9. [Recursion](009_Recursion.md)
 10. [Inheritance](010_Inheritance.md)
 11. [Packages](011_Packages.md)
+12. [Interfaces](012_Interfaces.md)
 
 ## Resources
 
