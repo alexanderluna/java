@@ -19,3 +19,16 @@ created within a directory named after your package.
 skipped the protected access modifier. The protected access modifier makes a
 member accessible within a package and to subclasses in other packages. Thus it
 is protected from being accessed outside its package.
+
+To import a package in java we use the **import** statement.
+
+```java
+// import a specific class from a package
+import mypackage.MyClass;
+
+// import everything from within a package
+import mypackage.*;
+```
+
+Java's class library is contained in packages as well like the `java.lang`,
+`java.io` and `java.net` packages.
