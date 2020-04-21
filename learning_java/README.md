@@ -10,7 +10,7 @@ to learn and keep learning java.
 2. [Control Statement](002_Control_Statement.md)
 3. [Literals](003_Literals.md)
 4. [Operators](004_Operators.md)
-5. [Input](005_Input.md)
+5. [I/O](005_Input.md)
 6. [Classes and Methods](006_Classes_Methods.md)
 7. [Arrays](007_Arrays.md)
 8. [Strings](008_Strings.md)
