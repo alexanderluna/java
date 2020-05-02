@@ -1,6 +1,7 @@
 # Learning Java
 
-I like to read books/blog posts and watch courses to learn a new programming language. However, my notes can become messi and I prefer digitalizing my notes
+I like to read books/blog posts and watch courses to learn a new programming
+language. However, my notes can become messi and I prefer digitalizing my notes
 to keep them safe. Here you will find resource links to books and course I used
 to learn and keep learning java.
 
@@ -20,6 +21,8 @@ to learn and keep learning java.
 12. [Interfaces](012_Interfaces.md)
 13. [Exceptions](013_Exceptions.md)
 14. [Threading](014_Threading.md)
+15. [Enumeration](015_Enumeration.md)
+16. [Misc](000_Misc.md)
 
 ## Resources
 
