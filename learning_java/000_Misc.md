@@ -45,3 +45,22 @@ a source file called annotation.
 ```
 
 Java has build in annotations for general use.
+
+## Method reference
+
+A method reference provides a way to refer to a method without executing it.
+When evaluated it creates an instance of a functional interface.
+
+A metho reference to a static method is created by specifying the method name
+preceded by its class name.
+
+```java
+className::methodName
+objReference::methodName
+
+// access super class version of a method
+super::methodName
+
+// constructor reference
+className::new
+```
