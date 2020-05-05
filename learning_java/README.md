@@ -23,7 +23,8 @@ to learn and keep learning java.
 14. [Threading](014_Threading.md)
 15. [Enumeration](015_Enumeration.md)
 16. [Generics](016_Generics.md)
-17. [Misc](000_Misc.md)
+17. [Lambda](017_Lambda.md)
+18. [Misc](000_Misc.md)
 
 ## Resources
 
