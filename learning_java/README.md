@@ -25,7 +25,8 @@ to learn and keep learning java.
 16. [Generics](016_Generics.md)
 17. [Lambda](017_Lambda.md)
 18. [Modules](018_Modules.md)
-19. [Misc](000_Misc.md)
+19. [Swing](019_Swing.md)
+20. [Misc](000_Misc.md)
 
 ## Resources
 
